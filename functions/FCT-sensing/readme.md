@@ -1,5 +1,5 @@
 # Function
-![](viewme.jpg)
+![](viewme.png)
 
 ## Name
 [`FCT-sensing`]()

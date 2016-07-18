@@ -58,11 +58,11 @@ author|Jérôme/Gérard
 
 ### DC/DC Converter
 
-| version      | V1.1 |  
-| ------------- |: -------------: |  
-| date     |18/04/2016|  
-| technology|integrated circuit|  
-| author|BM|  
+version      | V1.1  
+------------- | -------------  
+date     |18/04/2016  
+technology|integrated circuit  
+author|BM  
 
 #### Scheme
 ![](ioscheme.jpg)

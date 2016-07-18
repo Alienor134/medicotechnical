@@ -8,5 +8,4 @@
 Sensing
 
 ## Description
-Émission, réception de l’onde acoustique & gestion des tirs (dirac).
-Conversion d’une pression p en une tension V.
+Emission and reception of the acoustic wave (convert voltage V to pressure P and vice versa). Producing high voltage pulses (Dirac)

@@ -1,5 +1,5 @@
 # Module
-<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/ioscheme.PNG" width="48">
+<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/ioscheme.PNG" width="400">
 
 ## Name
 [`MDL-alimentation_high_voltage`]()

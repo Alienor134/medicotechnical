@@ -1,5 +1,5 @@
 # Module
-![](ioscheme.jpg)
+![](viewme.jpg)
 
 ## Name
 [`MDL-alimentation_high_voltage`]()

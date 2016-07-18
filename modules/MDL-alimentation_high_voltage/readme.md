@@ -88,3 +88,82 @@ author|BM
 **cons**: price  
 **constraint**: 5V or 12V power supply
 
+### Transformer
+
+version      | V1.2  
+------------- | -------------  
+date     |XX/XX/201X  
+technology|home made  
+author|Farad  
+
+#### Visuals:
+<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/scheme_V1.2.png" width="400">  
+*scheme*  
+<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/circuit_V1.2.JPG" width="400">  
+*electronic circuit*
+
+A Transformer has been found. It has been taken from a system that can transform 230V to 12V. The aim is to transform 5V to 100V (Figure 1):
+<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/circuit1_V1.2.JPG" width="400">  
+
+<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/circuit1_V1.2.JPG" width="400">  
+*Figure 1: Transformer*  
+
+Several tests on the transformer show that it could be used as an elevator for our system. The inductance of the coil inside the transformer has been calculated using the formula :  
+
+F0 = 1/(2*pi*sqrt(LC))  
+sqrt(LC) = 1/(2*pi*F0)  
+L = 1/((2*pi*F0)^2 *C)  
+Using the frequency generator to sweep the frequency, the resonnance frequency (F0) could be found. With a serie capacitor of 4.7 nF L1 = 11.13mH (F0 = 26 kHz) and L2 = 31.89 mH (F0 = 13 kHz) The elevation has a max tension at 13 kHz. A frequency generator has been used to determine this value (saw Figure 4). The Tension has been fixed to 15Vpp with a square signal at 13kHz.  
+
+![](https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/scheme_V1.2.jpg)
+![](https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/results1_V1.2.jpg)  
+*Figure 2: Results: Tension Measurement of the elevation without load resistance*
+
+#### Input/Output: 
+**input**: Oscillation: 
+To create an oscillating circuit, the LM555 component has been chosen. The oscillation need to have the follow characteristics:  
+
+15 Vpp (+7.5 to -7.5)  
+square signal at 13kHz  
+Duty Cycle around 50%  
+The Figure 5 show the schema of the oscillating circuit with these characteristics:  
+
+![](https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/input1_V1.2.jpg)
+![](https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/input2_V1.2.jpg) 
+*Figure 3 : Oscillating circuit and the output of the 555 component*  
+
+**Observation** :  
+
+With 12V from the generator, we find 130V  
+Current loss is fixed using a coil between the alimentation and the transistor and by putting a capacitor between the transistor and the transformer  
+Elevation and voltage rectification  
+
+The Elevation requiers a transistor (a mosfet is used) to drive the power from the alimentation. The circuit is shown below:  
+
+![](https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/input3_V1.2.jpg)  
+*Figure 6 : High Tension Generator*
+
+The multimeter shows :
+
+![](https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/input4_V1.2.jpg)  
+*Figure 7: Result of the power circuit*  
+
+The coil has to be choosen with this formula:  
+Ipeak = (Vsupply * DutyCycle) / L  
+
+The recitification has to follow the formula:  
+C = I/(deltaV * F)  
+with deltaV the admissible variation of the tension  
+F the fréquency of the alternative tension from the transformer  
+C the rectification capacitor  
+I the current from the transformer  
+
+**Numerical Application**:  
+F = 10kHz, I = 10mA and deltaV = 1V  
+C = 1µF  
+
+**Observation**:  
+The transformer is noisy  
+A power resistance is required  
+C6 capacitor is needed to reduce the loss inductance and make the signal symmetric
+

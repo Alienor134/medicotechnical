@@ -6,11 +6,15 @@ version      | VX.X  (cf previous solutions)
 ------------- | -------------  
 date     |XX/XX/20XX  
 technology|home made or integrated circuit 
-author|XXXXXXXXXXx
+author|XXXXXXXXXX
 
 #### Visuals:
 ![scheme](doc/images/VX.X/scheme.jpg)  
 ![electronic circuit](doc/images/VX.X/circuit.jpg)
+
+#### Input/Output: 
+**input**:  
+**output**:
 
 ####Testing:  
 ###### protocol:  
@@ -18,13 +22,9 @@ author|XXXXXXXXXXx
 ![results](doc/images/VX.X/results.jpg)   
 
 
-#### Input/Output: 
-**input**:  
-**output**:  
  
-#### Pros/Cons/Constraint:  
+#### Observations: 
 **pros**:  
 **cons**:  
 **constraints**:  
-
-####Observations:  
+**suggestions for further upgrade**

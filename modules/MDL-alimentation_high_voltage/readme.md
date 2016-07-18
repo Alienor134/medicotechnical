@@ -33,9 +33,9 @@ author|Jérôme/Gérard
 
 #### Visuals:
 
-![](/doc/images/scheme_V1.0.jpg)
+![](doc/images/scheme_V1.0.jpg)
 *scheme*  
-![](/doc/images/circuit_V1.0.jpg)
+![](doc/images/circuit_V1.0.jpg)
 *electronic circuit*
 
 #### Testing:
@@ -43,7 +43,7 @@ author|Jérôme/Gérard
 ##### protocol:
 ##### results:
 
-![](/doc/images/results_V1.0.jpg)
+![](doc/images/results_V1.0.jpg)
 *results*
 
 #### Input/Output: 
@@ -66,9 +66,9 @@ technology|integrated circuit
 author|BM  
 
 #### Scheme
-![](/doc/images/scheme_V1.1.jpg)
+![](doc/images/scheme_V1.1.jpg)
 *scheme*  
-![](/doc/images/circuit_V1.1.jpg)
+![](doc/images/circuit_V1.1.jpg)
 *electronic circuit*  
 
 [Fiche du fournisseur](http://www.digikey.fr/product-detail/fr/recom-power/R05-100B/945-2051-5-ND/3776798)
@@ -77,7 +77,7 @@ author|BM
 ##### protocol:
 ##### results:
 
-![](/doc/images/results_V1.1.jpg)
+![](doc/images/results_V1.1.jpg)
 *results*
 
 ####Input/Output: 

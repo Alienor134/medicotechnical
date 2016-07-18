@@ -8,7 +8,7 @@
 Low voltage (+5v, +3.3v, ...) alimentation
 
 ## Description
-We need to split the tension provided by the alimentation (+18v) because each circuit needs a different value of DC alimentation.  
+We need to split the tension provided by the lab alimentation  because each circuit used for different sub-functions needs a different value of DC alimentation.  
 
 ## Uses
 * external +18v
@@ -59,12 +59,12 @@ author|BM
 [PYB30-Q24](http://www.cui.com/product/resource/pyb30-u.pdf)  
 
 ###Input/Output:
-**input**: 9 to 36 V CC
-**output**: +/- 12V, +5V
+**input**: 9 to 36 V CC  
+**output**: +/- 12V, +5V  
 
 ###Pros/Cons/Constraint: 
-*Pros*: NA
-*Cons*: price
-*Constraint*:  9 to 36 V CC
+**Pros**: NA  
+**Cons**: price  
+**Constraint**:  9 to 36 V CC  
 
 

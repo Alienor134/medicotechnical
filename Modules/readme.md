@@ -23,8 +23,8 @@ author|XXXXXXXXXXx
 **output**:  
  
 #### Pros/Cons/Constraint:  
-**pros**: 
-**cons**: 
-**constraints**: 
+**pros**:  
+**cons**:  
+**constraints**:  
 
 ####Observations:  

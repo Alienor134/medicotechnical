@@ -96,10 +96,10 @@ date     |XX/XX/201X
 technology|home made  
 author|Farad  
 
-A Transformer has been found. It has been taken from a system that can transform 230V to 12V. The aim is to transform 5V to 100V (Figure 1):
+A Transformer has been found. It has been taken from a system that can transform 230V to 12V. The aim is to transform 5V to 100V (Figure 1):  
 <img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/circuit1_V1.2.jpg" width="400">  
 
-<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/circuit2_V1.2.JPG" width="400">  
+<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/circuit2_V1.2.jpg" width="400">  
 *Figure 1: Transformer*  
 
 Several tests on the transformer show that it could be used as an elevator for our system. The inductance of the coil inside the transformer has been calculated using the formula :  
@@ -111,7 +111,7 @@ Using the frequency generator to sweep the frequency, the resonnance frequency (
 
 ![](https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/scheme1_V1.2.PNG)
 ![](https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/results1_V1.2.jpg)  
-*Figure 2: Results: Tension Measurement of the elevation without load resistance*
+*Figure 2: Results: Tension Measurement of the elevation without load resistance*  
 
 #### Input/Output: 
 **input**: Oscillation: 
@@ -135,7 +135,7 @@ Elevation and voltage rectification
 The Elevation requiers a transistor (a mosfet is used) to drive the power from the alimentation. The circuit is shown below:  
 
 ![](https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/input3_V1.2.PNG)  
-*Figure 6 : High Tension Generator*
+*Figure 6 : High Tension Generator*  
 
 The multimeter shows :
 

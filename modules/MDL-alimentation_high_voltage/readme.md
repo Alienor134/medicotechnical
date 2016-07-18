@@ -123,7 +123,7 @@ Duty Cycle around 50%
 The Figure 5 show the schema of the oscillating circuit with these characteristics:  
 
 ![](https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/input1_V1.2.PNG)
-![](https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/input2_V1.2.jpg) 
+![](https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/input2_V1.2.jpg)  
 *Figure 3 : Oscillating circuit and the output of the 555 component*  
 
 **Observation** :  

@@ -5,7 +5,7 @@
 [`MDL-alimentation_high_voltage`]()
 
 ## Title
-High voltage (-100v) alimentation
+High voltage (-100V) alimentation
 
 ## Description
 We need a high voltage negative pulse in order to exite efficiently the transducer.
@@ -23,7 +23,7 @@ Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)
 
 ##Solutions: 
 
-### Cascade de Cockroft
+### Cockroft-Walton multiplier
 
 version      | V1.0  
 ------------- | -------------  

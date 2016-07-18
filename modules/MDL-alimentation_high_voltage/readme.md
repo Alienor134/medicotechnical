@@ -32,9 +32,9 @@ technology|home made
 author|Jérôme/Gérard  
 
 #### Visuals:
-<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/scheme_V1.0.png" width="400">
+<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/scheme_V1.0.png" width="400">  
 *scheme*  
-<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/circuit_V1.0.JPG" width="400">
+<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/circuit_V1.0.JPG" width="400">  
 *electronic circuit*
 
 #### Testing:
@@ -65,9 +65,9 @@ technology|integrated circuit
 author|BM  
 
 #### Scheme
-<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/scheme_V1.1.png" width="400">
+<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/scheme_V1.1.png" width="400">  
 *scheme*  
-<img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/circuit_V1.1.JPG" width="400">
+<div style="text-align:center"><img src="https://github.com/Alienor134/medicotechnical/blob/master/modules/MDL-alimentation_high_voltage/doc/images/circuit_V1.1.JPG" width="400"></div>  
 *electronic circuit*  
 
 [Fiche du fournisseur](http://www.digikey.fr/product-detail/fr/recom-power/R05-100B/945-2051-5-ND/3776798)

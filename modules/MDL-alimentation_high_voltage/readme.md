@@ -24,11 +24,11 @@ Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)
 
 ### Cascade de Cockroft
 
-| version      | V1.0 |
-| ------------- |: -------------: | ---------: |
-| date     |11/04/2016|
-| technology|home made|
-| author|Jérôme/Gérard|
+version      | V1.0  
+------------- | -------------  
+date     |11/04/2016  
+technology|home made  
+author|Jérôme/Gérard  
 
 #### Visuals:
 

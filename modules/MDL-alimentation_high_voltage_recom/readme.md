@@ -12,7 +12,7 @@ High voltage (-100V) alimentation
 version      | V1.1  
 ------------- | -------------  
 date     |18/04/2016  
-technology|integrated circuit ['R05-100B'](http://www.digikey.fr/product-detail/fr/recom-power/R05-100B/945-2051-5-ND/3776798)  
+technology|integrated circuit [`R05-100B`](http://www.digikey.fr/product-detail/fr/recom-power/R05-100B/945-2051-5-ND/3776798)  
 author|BM  
 
 ## Functions
@@ -34,9 +34,12 @@ Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)
 
 ### Observations
 
-*pros*: variable output  
-*cons*: price  
-*constraint*: 5V or 12V power supply  
+####pros
+variable output  
+####cons
+price  
+####constraints
+5V or 12V power supply  
 
 
 

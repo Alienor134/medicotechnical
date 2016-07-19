@@ -35,7 +35,7 @@ Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)
 ### pros
 NA
 ### cons
-NA
+noisy
 ###constraints
 alternative signal (square) 15 Vpp (+7.5 to -7.5)
 

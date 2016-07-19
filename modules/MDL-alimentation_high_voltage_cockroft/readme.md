@@ -1,5 +1,5 @@
 # Module
-![](viewme.jpg)
+![](viewme.png)
 
 ## Name
 [`MDL-alimentation_high_voltage_cockroft`]()
@@ -29,7 +29,7 @@ Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)
 
 ## Visuals
 
-![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme_cockroft.png)  
+![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme_cockroft.jpg)  
 ![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme2_cockroft.png)  
 *circuits*  
 

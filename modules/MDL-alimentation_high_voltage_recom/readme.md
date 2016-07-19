@@ -29,7 +29,7 @@ Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)
 
 ## Visuals
 
-![circuit](/images/circuit.jpg)  
+![circuit](/images/scheme_recom.png  
 *circuit*  
 
 ## Observations

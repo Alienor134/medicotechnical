@@ -21,17 +21,17 @@ Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)
 
 ## IOs
 ###Inputs
-[`ITF-T_100v`](../../interfaces/ITF-B_5v)  
-[`ITF-T_100v`](../../interfaces/ITF-L_18v_alimentation)  
+[`ITF-B_5v`](../../interfaces/ITF-B_5v)  
+[`ITF-L_18v alimentation`](../../interfaces/ITF-L_18v_alimentation)  
 
 ### Outputs
 [`ITF-T_100v`](../../interfaces/ITF-T_100v)  
 
 ## Visuals
-
-![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme_cockroft.jpg)  
 ![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme2_cockroft.png)  
-*circuits*  
+*circuit*    
+![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme_cockroft.jpg)  
+*square alimentation 0-18V*
 
 ## Observations
 

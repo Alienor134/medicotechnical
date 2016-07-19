@@ -27,7 +27,7 @@ Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)
 [`ITF-T_100v`](../../interfaces/ITF-T_100v)  
 
 ## Visuals
-![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme_transfo.PNG)  
+![circuit](/modules/MDL-alimentation_high_voltage_transformer/images/scheme_transfo.PNG)  
 *circuit*    
 
 ## Observations
@@ -41,9 +41,9 @@ alternative signal (square) 15 Vpp (+7.5 to -7.5)
 
 ## Discussions
 A Transformer has been found. It has been taken from a system that can transform 230V to 12V. The aim is to transform 5V to 100V (Figure 1):  
-![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/tranfso2.jpg)  
+![circuit](/modules/MDL-alimentation_high_voltage_transformer/images/tranfso2.jpg)  
 
-![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/transfo1.jpg)  
+![circuit](/modules/MDL-alimentation_high_voltage_transformer/images/transfo1.jpg)  
 *Figure 1: Transformer*  
 
 Several tests on the transformer show that it could be used as an elevator for our system. The inductance of the coil inside the transformer has been calculated using the formula :  
@@ -53,8 +53,8 @@ sqrt(LC) = 1/(2*pi*F0)
 L = 1/((2*pi*F0)^2 *C)  
 Using the frequency generator to sweep the frequency, the resonnance frequency (F0) could be found. With a serie capacitor of 4.7 nF L1 = 11.13mH (F0 = 26 kHz) and L2 = 31.89 mH (F0 = 13 kHz) The elevation has a max tension at 13 kHz. A frequency generator has been used to determine this value (saw Figure 4). The Tension has been fixed to 15Vpp with a square signal at 13kHz.  
 
-![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme2_tranfso.PNG)  
-![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/unloaded.jpg)  
+![circuit](/modules/MDL-alimentation_high_voltage_transformer/images/scheme2_tranfso.PNG)  
+![circuit](/modules/MDL-alimentation_high_voltage_transformer/images/unloaded.jpg)  
 *Figure 2: Results: Tension Measurement of the elevation without load resistance*  
 
 #### Input/Output: 
@@ -79,7 +79,7 @@ Elevation and voltage rectification
 
 The Elevation requiers a transistor (a mosfet is used) to drive the power from the alimentation. The circuit is shown below:  
 
-![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme_transfo.png)  
+![circuit](/modules/MDL-alimentation_high_voltage_transformer/images/scheme_transfo.png)  
 *Figure 4 : High Tension Generator*  
 
 The multimeter shows :

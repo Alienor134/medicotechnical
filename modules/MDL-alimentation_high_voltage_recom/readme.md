@@ -29,7 +29,7 @@ Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)
 
 ## Visuals
 
-![circuit](/images/scheme_recom.png)  
+![circuit](/modules/MDL-alimentation_high_voltage_recom/images/scheme_recom.png)  
 *circuit*  
 
 ## Observations

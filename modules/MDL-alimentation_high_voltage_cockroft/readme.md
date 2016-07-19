@@ -21,7 +21,8 @@ Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)
 
 ## IOs
 ###Inputs
-alternative signal (square) 0 to -15V
+[`ITF-T_100v`](../../interfaces/ITF-B_5v)  
+[`ITF-T_100v`](../../interfaces/ITF-L_18v_alimentation)  
 
 ### Outputs
 [`ITF-T_100v`](../../interfaces/ITF-T_100v)  
@@ -29,7 +30,8 @@ alternative signal (square) 0 to -15V
 ## Visuals
 
 ![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme_cockroft.png)  
-*circuit*  
+![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme2_cockroft.png)  
+*circuits*  
 
 ## Observations
 

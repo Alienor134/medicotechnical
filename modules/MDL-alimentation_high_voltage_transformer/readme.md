@@ -79,7 +79,7 @@ Elevation and voltage rectification
 
 The Elevation requiers a transistor (a mosfet is used) to drive the power from the alimentation. The circuit is shown below:  
 
-![circuit](/modules/MDL-alimentation_high_voltage_transformer/images/scheme_transfo.png)  
+![circuit](/modules/MDL-alimentation_high_voltage_transformer/images/scheme_transfo.PNG)  
 *Figure 4 : High Tension Generator*  
 
 The multimeter shows :

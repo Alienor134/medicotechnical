@@ -27,18 +27,18 @@ Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)
 ### Outputs
 [`ITF-T_100v`](../../interfaces/ITF-T_100v) variable output: +/-50 to 150V DC  
 
-### Visuals
+## Visuals
 
 ![circuit](/images/circuit.jpg)  
 *circuit*  
 
-### Observations
+## Observations
 
-####pros
+###pros
 variable output  
-####cons
+###cons
 price  
-####constraints
+###constraints
 5V or 12V power supply  
 
 

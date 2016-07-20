@@ -38,9 +38,7 @@ This module will provide the DC alimentation adapted to the electronic circuits 
 * [`ITF-H_neg_12v`](../../interfaces/ITF-H_neg_12v)
 * [`ITF-10_gnd`](../../interfaces/ITF-F_12v)
 
-## Visuals
-![circuit](/modules/MDL-alimentation_low_voltage_cui/images/circuit1.jpg)  
-*scheme*    
+
 
 ## Observations
 

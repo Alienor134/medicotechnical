@@ -7,17 +7,20 @@
 ## Title
 High voltage (-100V) alimentation
 
-## Description
+## Version
+V1.1  
 
-version      | V1.1  
-------------- | -------------  
-date     |18/04/2016  
-technology|integrated circuit [`R05-100B`](http://www.digikey.fr/product-detail/fr/recom-power/R05-100B/945-2051-5-ND/3776798)  
-author|BM  
+## Date
+18/04/2016  
+
+## Technology
+integrated circuit [`R05-100B`](http://www.digikey.fr/product-detail/fr/recom-power/R05-100B/945-2051-5-ND/3776798)  
+
+## Author
+[`BM`](../../contributors/CTB-bm)  
 
 ## Functions
-Function: [`FCT-sensing`](../../functions/FCT-sensing)  
-Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)  
+[`FCT-emitting`](../../functions/FCT-sensing_emitting)  
 
 ## IOs
 ###Inputs
@@ -27,18 +30,23 @@ Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)
 ### Outputs
 [`ITF-T_100v`](../../interfaces/ITF-T_100v) variable output: +/-50 to 150V DC  
 
-## Visuals
+## Description
+
+### Module requirements
+This module will provide a high voltage negative DC in order to increase the pulse voltage to exite efficiently the transducer.  
+
+### Visuals
 
 ![circuit](/modules/MDL-alimentation_high_voltage_recom/images/scheme_recom.png)  
 *circuit*  
 
-## Observations
+### Observations
 
-###pros
+#### Pros
 variable output  
-###cons
+#### Cons
 price  
-###constraints
+#### Constraints
 5V or 12V power supply  
 
 

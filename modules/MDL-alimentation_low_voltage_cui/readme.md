@@ -7,17 +7,17 @@
 ## Title
 Low voltage (+5v, 12V, ...) alimentation
 
-## version  
+## Version  
 V1.0  
 
-## date
+## Date
 18/04/2016  
 
-## technology
+## Technology
 
 commercial circuit [`PYB30-Q24`](http://www.cui.com/product/resource/pyb30-u.pdf)   
 
-## author
+## Author
 [`BM`](../../contributors/CTB-bm)  
 
 ### Functions 
@@ -43,9 +43,9 @@ This module will provide the DC alimentation adapted to the electronic circuits 
 
 ### Observations
 
-### pros
+#### Pros
 9 to 36 Vpp
-### cons
+#### Cons
 price
-### constraints
+#### Constraints
 NA

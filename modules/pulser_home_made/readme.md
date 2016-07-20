@@ -50,8 +50,8 @@ NA
 
 #### Cons
 The pulse can be smaller (in time) than the logic pusle due to self effect of the cable going to the transducer
-It worked perfectly on the initial board though.
-![board]((/modules/MDL-pulser_home_made/images/board.jpg)
+It worked perfectly on the initial board though.  
+![board](/modules/MDL-pulser_home_made/images/board.jpg)
 
 #### Constraints
 Need 12V alimentation for the MOSFET

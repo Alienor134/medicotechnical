@@ -45,9 +45,8 @@ This module will provide the DC alimentation adapted to the electronic circuits 
 ## Observations
 
 ### pros
-low electromagnetic scatterred field  
+low cost
 ### cons
-low intensity  
+18 VCC input
 ### constraints
-alternative signal (square) 0 to -15V input
-
+NA

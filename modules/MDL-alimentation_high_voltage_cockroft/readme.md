@@ -7,8 +7,6 @@
 ## Title
 High voltage (-100V) alimentation
 
-## Description
-
 ## Version
 V1.0  
 
@@ -26,9 +24,6 @@ Hand made
 ## Functions  
 [`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)  
 
-### Module requirements 
-This module will provide a high voltage negative DC in order to increase the pulse voltage to exite efficiently the transducer.
-
 ## IOs
 ###Inputs
 [`ITF-B_5v`](../../interfaces/ITF-B_5v)  
@@ -38,19 +33,24 @@ This module will provide a high voltage negative DC in order to increase the pul
 [`ITF-T_100v`](../../interfaces/ITF-T_100v)  
 
 
-## Visuals
+## Description
+
+### Module requirements 
+This module will provide a high voltage negative DC in order to increase the pulse voltage to exite efficiently the transducer.
+
+### Visuals
 ![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme2_cockroft.png)  
 *circuit*    
 ![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme_cockroft.jpg)  
 *square alimentation 0-18V*
 
-## Observations
+### Observations
 
-### Pros
+#### Pros
 low electromagnetic scatterred field  
-### Cons
+#### Cons
 low intensity  
-### Constraints
+#### Constraints
 alternative signal (square) 0 to -15V input
 
 

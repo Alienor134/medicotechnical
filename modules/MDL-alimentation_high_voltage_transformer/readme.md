@@ -32,19 +32,22 @@ hand made
 
 ## Description
 
+### Module requirements
+This module will provide a high voltage negative DC in order to increase the pulse voltage to exite efficiently the transducer.
+
 ### Visuals
 ![circuit](/modules/MDL-alimentation_high_voltage_transformer/images/scheme_transfo.PNG)  
 *circuit*    
 
 ### Observations
 
-#### pros
+#### Pros
 NA
 
-#### cons
+#### Cons
 noisy
 
-#### constraints
+#### Constraints
 alternative signal (square) 15 Vpp (+7.5 to -7.5)
 
 ### Discussions
@@ -77,7 +80,7 @@ Elevation and voltage rectification
 The Elevation requiers a transistor (a mosfet is used) to drive the power from the alimentation. The circuit is shown below:  
 ![circuit](/modules/MDL-alimentation_high_voltage_transformer/images/scheme_transfo.PNG)  
 *Figure 4 : High Tension Generator*  
-The multimeter shows :
+The multimeter shows :  
 ![circuit](/modules/MDL-alimentation_high_voltage_transformer/images/loaded.jpg)  
 *Figure 5: Result of the power circuit*  
 The coil has to be choosen with this formula:  

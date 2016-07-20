@@ -21,7 +21,7 @@ commercial circuit [`PYB30-Q24`](http://www.cui.com/product/resource/pyb30-u.pdf
 [`BM`](../../contributors/CTB-bm)  
 
 ### Functions 
-[`FCT-sensing`](../functions/FCT-sensing_emitting)  
+[`FCT-sensing`](../../functions/FCT-sensing_emitting)  
 [`FCT-receiving`](../../functions/FCT-sensing_receiving)  
 [`FCT-sweeping`](../../functions/FCT-sensing_sweeping)  
 

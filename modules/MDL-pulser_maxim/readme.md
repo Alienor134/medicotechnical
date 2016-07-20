@@ -5,7 +5,7 @@
 [`MDL-pulser_maxim`]()  
 
 ## Title
-High voltage (-100V) alimentation  
+Pulser producing a high voltage (-100v) pulse
 
 ## Version
 V1.1  

@@ -42,7 +42,7 @@ integrated circuit [`MAX4940`](http://www.mouser.com/ds/2/256/MAX4940EVKIT-MAX49
 This module will provide a high voltage pulse that will excite the transducer.
 
 ### Visuals
-![circuit](/modules/MDL-alimentation_high_voltage_transformer/images/scheme.jpg)  
+![circuit](/modules/MDL-pulser_maxim/images/scheme.jpg)  
 *circuit*    
 
 ### Observations

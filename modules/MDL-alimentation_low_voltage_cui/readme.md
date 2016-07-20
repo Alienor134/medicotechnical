@@ -10,9 +10,9 @@ Low voltage (+5v, +3.3v, ...) alimentation
 ## Description
 version      | V1.0  
 ------------- | -------------  
-date     |11/04/2016  
-technology|hand made  
-author|Jérôme/Gérard  
+date     |18/04/2016  
+technology|commercial circuit [`PYB30-Q24`](http://www.cui.com/product/resource/pyb30-u.pdf)   
+author|BM 
 
 ## Functional analysis
 
@@ -45,8 +45,8 @@ This module will provide the DC alimentation adapted to the electronic circuits 
 ## Observations
 
 ### pros
-low cost
+9 to 36 Vpp
 ### cons
-18Vpp input
+price
 ### constraints
 NA

@@ -47,6 +47,6 @@ This module will provide the DC alimentation adapted to the electronic circuits 
 ### pros
 low cost
 ### cons
-18 VCC input
+18Vpp input
 ### constraints
 NA

@@ -9,17 +9,22 @@ High voltage (-100V) alimentation
 
 ## Description
 
-version      | V1.0  
-------------- | -------------  
-date     |11/04/2016  
-technology|hand made  
-author|Jérôme/Gérard  
+## Version
+V1.0  
 
-## Functional analysis
+## Date
+11/04/2016  
 
-### Function [`FCT-sensing`](../../functions/FCT-sensing)  
+## Technology
+Hand made
 
-### Sub-Function  [`FCT-emitting`](../../functions/FCT-emitting)  
+## Author
+[`Jérôme`](../../contributors/CTB-jerome)  
+[`Gérard`](../../contributors/CTB-gerard)  
+
+
+## Functions  
+[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)  
 
 ### Module requirements 
 This module will provide a high voltage negative DC in order to increase the pulse voltage to exite efficiently the transducer.
@@ -41,11 +46,11 @@ This module will provide a high voltage negative DC in order to increase the pul
 
 ## Observations
 
-###pros
+### Pros
 low electromagnetic scatterred field  
-###cons
+### Cons
 low intensity  
-###constraints
+### Constraints
 alternative signal (square) 0 to -15V input
 
 

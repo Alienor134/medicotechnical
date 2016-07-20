@@ -44,7 +44,7 @@ NA
 #### cons
 noisy
 
-### constraints
+#### constraints
 alternative signal (square) 15 Vpp (+7.5 to -7.5)
 
 ### Discussions

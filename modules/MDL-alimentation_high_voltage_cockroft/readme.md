@@ -15,9 +15,14 @@ date     |11/04/2016
 technology|hand made  
 author|Jérôme/Gérard  
 
-## Functions
-Function: [`FCT-sensing`](../../functions/FCT-sensing)  
-Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)  
+## Functional analysis
+
+### Function [`FCT-sensing`](../../functions/FCT-sensing)  
+
+### Sub-Function  [`FCT-emitting`](../../functions/FCT-emitting)  
+
+### Module requirements 
+This module will provide a high voltage negative DC in order to increase the pulse voltage to exite efficiently the transducer.
 
 ## IOs
 ###Inputs
@@ -26,6 +31,7 @@ Sub-Function:  [`FCT-emitting`](../../functions/FCT-emitting)
 
 ### Outputs
 [`ITF-T_100v`](../../interfaces/ITF-T_100v)  
+
 
 ## Visuals
 ![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme2_cockroft.png)  

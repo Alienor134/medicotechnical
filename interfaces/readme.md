@@ -1,13 +1,9 @@
 #NOMENCLATURE
 
-## Signaux entre l'extérieur et les modules
+## Interface
 
-ITF-*lettre en majuscule* _ *nom cohérent en minuscules avec "_" pour les espaces*
+ITF-*capital letter* _ *lowercase name using  "_" for spaces*
 
-##Signaux ne circulant qu'entre les modules
+## Inter-module signals
 
-INT-IM-*lettre en majuscule* _ *nom cohérent en minuscules avec "_" pour les espaces*  
-
-##Signaux de commande de circuits intégrés
-
-INT-CMD-*lettre en majuscule* _ *nom cohérent en minuscules avec "_" pour les espaces*  
+IM-*capital letter* _ *lowercase name using  "_" for spaces*  

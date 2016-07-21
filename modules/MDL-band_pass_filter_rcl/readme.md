@@ -2,7 +2,7 @@
 ![](viewme.jpg)
 
 ## Name
-[`MDL-band_pass_filter_rlc`]()
+[`MDL-band_pass_filter_rcl`]()
 
 ## Title
 Band-pass filter
@@ -37,7 +37,7 @@ Home made
 This module will filter the noise from the raw signal coming out of the TGC.
 
 ### Visuals
-![circuit](/modules/MDL-band_pass_filter_rlc/images/scheme.jpg)  
+![circuit](/modules/MDL-band_pass_filter_rcl/images/scheme.jpg)  
 *circuit*    
 
 ### Observations

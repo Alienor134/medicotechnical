@@ -46,8 +46,9 @@ This module will filter the noise from the raw signal coming out of the TGC.
 active filter
 
 #### Cons
-supply voltage to operational amplifiers  
+NA
 
 #### Constraints
-NA
+supply voltage to operational amplifiers  
+
  

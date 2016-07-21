@@ -1,5 +1,5 @@
 # Module
-![](viewme.png)
+![](viewme.jpg)
 
 ## Name
 [`MDL-tgc_analog_devices`]()

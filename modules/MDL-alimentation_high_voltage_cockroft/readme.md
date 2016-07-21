@@ -30,7 +30,7 @@ Hand made
 [`ITF-L_18v alimentation`](../../interfaces/ITF-L_18v_alimentation)  
 
 ### Outputs
-[`ITF-T_100v`](../../interfaces/ITF-IM_A_100v)  
+[`alimentation 100V DC`](../../interfaces/ITF-IM_A_100v)  
 
 
 ## Description

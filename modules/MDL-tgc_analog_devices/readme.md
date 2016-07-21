@@ -27,8 +27,8 @@ Integrated circuit [`AD8331 EVALZ`](AD8331 EVALZ)
 ###Inputs
 [`ITF-B_5v`](../../interfaces/ITF-B_5v)  
 [`ITF-A_gnd`](../../interfaces/ITF-A_gnd)  
-[`echo reçu`](../../interfaces/ITF-IM-C_echo_recu)  
-[`commande TGC redpitaya`](../../interfaces/ITF-CMD-A_tgc_redpitaya) 
+[`echo received`](../../interfaces/IM-C_echo_received)  
+[`gain_control`](../../interfaces/ITF-G_gain_control) 
 
 ### Outputs
 [`ITF-C_amplified_raw_signal`](../../interfaces/ITF-C_amplified_raw_signal)  

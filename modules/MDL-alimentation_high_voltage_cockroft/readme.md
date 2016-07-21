@@ -16,7 +16,7 @@ V1.0
 ## Technology
 Hand made
 
-## Author
+## Contributor
 [`Jérôme`](../../contributors/CTB-jerome)  
 [`Gérard`](../../contributors/CTB-gerard)  
 

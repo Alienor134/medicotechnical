@@ -5,27 +5,27 @@
 [`MDL-alimentation_low_voltage`]()
 
 ## Title
-Low voltage (+5v, +3.3v, ...) alimentation
+Low voltage (+5v, +12v, ...) alimentation
 
-## Description
-version      | V1.0  
-------------- | -------------  
-date     |11/04/2016  
-technology|hand made  
-author|Jérôme/Gérard  
+## Version
+V1.0  
 
-## Functional analysis
+## Date
+11/04/2016  
 
-### Function 
-[`FCT-sensing`](../../functions/FCT-sensing)
+## Technology
+Hand made  
 
-### Sub-Function
+## Contributor
+
+[`Jérôme`](../../contributors/CTB-jerome)
+[`Gérard `](../../contributors/CTB-gerard)
+
+
+## Sub-Functions
 [`FCT-sensing`](../../functions/FCT-emitting)
 [`FCT-sensing`](../../functions/FCT-receiving)
 [`FCT-sensing`](../../functions/FCT-sweeping)
-
-### Module requirements
-This module will provide the DC alimentation adapted to the electronic circuits different requirements in terms of voltage.
 
 ## IOs
 
@@ -38,15 +38,19 @@ This module will provide the DC alimentation adapted to the electronic circuits 
 * [`ITF-H_neg_12v`](../../interfaces/ITF-H_neg_12v)
 * [`ITF-10_gnd`](../../interfaces/ITF-F_12v)
 
-## Visuals
+## Description
+### Module requirements
+This module will provide the DC alimentation adapted to the electronic circuits different requirements in terms of voltage.
+
+### Visuals
 ![circuit](/modules/MDL-alimentation_low_voltage_home_made/images/circuit1.jpg)  
 *scheme*    
 
-## Observations
+### Observations
 
-### pros
+#### pros
 low cost
-### cons
+#### cons
 18Vpp input
-### constraints
+#### constraints
 NA

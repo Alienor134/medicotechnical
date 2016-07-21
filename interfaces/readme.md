@@ -2,7 +2,7 @@
 
 ## Signaux entre l'extérieur et les modules
 
-INT-*lettre en majuscule* _ *nom cohérent en minuscules avec "_" pour les espaces*
+ITF-*lettre en majuscule* _ *nom cohérent en minuscules avec "_" pour les espaces*
 
 ##Signaux ne circulant qu'entre les modules
 

@@ -17,15 +17,15 @@ integrated circuit [`R05-100B`](http://www.digikey.fr/product-detail/fr/recom-po
 [`BM`](../../contributors/CTB-bm)  
 
 ## Functions
-[`FCT-emitting`](../../functions/FCT-sensing_emitting)  
+[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)  
 
 ## IOs
 ###Inputs
-[`ITF-10_gnd`](../../interfaces/ITF-10_gnd)  
+[`ITF-A_gnd`](../../interfaces/ITF-A_gnd)  
 [`ITF-B_5v`](../../interfaces/ITF-B_5v) or [`ITF-F_12v`](../../interfaces/ITF-F_12v)  
 
 ### Outputs
-[`ITF-T_100v`](../../interfaces/ITF-T_100v) variable output: +/-50 to 150V DC  
+[`IM-A_100v`](../../interfaces/IM-A_100v) variable output: +/-50 to 150V DC  
 
 ## Information
 

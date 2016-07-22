@@ -8,20 +8,17 @@
 Band-pass filter
 
 ## Version
-V1.0  
-
-## Date
-14/04/2016  
+V16.04.14 
 
 ## Technology
-Home made
+Echopen Made
  
 ## Contributor
 [`Jérôme`](../../contributors/CTB-jerome)  
 [`Michel`](../../contributors/CTB-michel) 
 
 ## Functions
-[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)  
+[`FCT-signal_processing_filtering`](../../functions/FCT-signal_processing_filtering)  
 
 ## IOs
 

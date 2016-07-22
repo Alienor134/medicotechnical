@@ -8,13 +8,10 @@
 Band-pass filter
 
 ## Version
-V1.1  
-
-## Date
-18/04/2016  
+V16.04.18
 
 ## Technology
-Home made using [`OPA625`](www.ti.com/product/OPA625)
+Home made using [`OPA625`](http://www.ti.com/product/OPA625)
  
 ## Contributor
 [`BM`](../../contributors/CTB-BM)  
@@ -26,7 +23,7 @@ Home made using [`OPA625`](www.ti.com/product/OPA625)
 
 ###Inputs
 [`ITF-C_amplified_raw_signal`](../../interfaces/ITF-C_amplified_raw_signal)  
-Supply voltage for opamps
+[`ITF-B-5v`](../../interfaces/B-5v)   Supply voltage for opamps  
 
 ### Outputs
 [`ITF-D_amplified_filtered_signal`](../../interfaces/ITF-D_amplified_filtered_signal)  

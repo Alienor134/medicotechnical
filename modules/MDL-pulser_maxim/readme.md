@@ -8,10 +8,7 @@
 Pulser producing a high voltage (-100v) pulse
 
 ## Version
-V1.1  
-
-## Date
-12/04/2016  
+V16.04.12  
 
 ## Technology
 integrated circuit [`MAX4940`](http://www.mouser.com/ds/2/256/MAX4940EVKIT-MAX4940MB-477818.pdf)
@@ -26,15 +23,16 @@ integrated circuit [`MAX4940`](http://www.mouser.com/ds/2/256/MAX4940EVKIT-MAX49
 
 ###Inputs
 
-[`ITF-10_gnd`](../../interfaces/ITF-10_gnd)    
+[`ITF-A_gnd`](../../interfaces/ITF-A_gnd)    
 [`ITF-I_pulse_on`](../../interfaces/ITF-I_pulse_on)  
 [`ITF-J_pulse_off`](../../interfaces/ITF-J_pulse_off)  
 [`ITF-F_12v`](../../interfaces/ITF-F_12v)  
 [`ITF-H_neg_12v`](../../interfaces/ITF-H_neg_12v)  
 [`ITF-B_5v`](../../interfaces/ITF-B_5v)  
-[`ITF-T_100v`](../../interfaces/ITF-T_100v)  
+[`IM-A_100v`](../../interfaces/IM-A_100v)  
+
 ### Outputs
-[`ITF-U_100v_pulse`](../../interfaces/ITF-U_100v_pulse)  
+[`IM-B_100v_pulse`](../../interfaces/IM-A_100v_pulse)  
 
 ## Description
 

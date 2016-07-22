@@ -111,33 +111,3 @@ if __name__ == "__main__":
 
   store(interfaces_index, md)
   print(">>>\n" + md)
-  
-  
-repo_dir = "../../../"
-modules_col = "modules"
-default_doc = "readme.md"
-
-doc_build_dir = "../../build/"
-interfaces_index = doc_build_dir + "modules_index.md"
-
-# modules table 
-if __name__ == "__main__":
-  print("Documentation builder start :")
-md = """\
-
-| Name | Title |  
-|------|-------|
-"""
-  for doc_name in collection(modules_col):
-    print("<<< " + doc_name)
-    dom = doc(doc_name)
-    print(dom["###"])
-    root = get(dom, "modules")
-    r = search_ref(get(get(root, "name"), ""))
-    t = sanitize(  get(get(root, "title"), ""))
-
-    md += '|[`{ref}`](../../interfaces/{ref} "{title}")|_{title}_|\n'.format(
-          ref=r, title=t)
-
-  store(interfaces_index, md)
-  print(">>>\n" + md)

@@ -8,13 +8,10 @@
 Low voltage (+5v, +12v, ...) alimentation
 
 ## Version
-V1.0  
-
-## Date
-11/04/2016  
+V16.04.11  
 
 ## Technology
-Hand made  
+Echopen Made  
 
 ## Contributor
 
@@ -23,9 +20,9 @@ Hand made
 
 
 ## Sub-Functions
-[`FCT-sensing`](../../functions/FCT-emitting)
-[`FCT-sensing`](../../functions/FCT-receiving)
-[`FCT-sensing`](../../functions/FCT-sweeping)
+[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)
+[`FCT-sensing_receiving`](../../functions/FCT-sensing_receiving)
+[`FCT-sensing_sweeping`](../../functions/FCT-sensing_sweeping)
 
 ## IOs
 
@@ -34,13 +31,13 @@ Hand made
 * [`ITF-L_18v_alimentation`](../../interfaces/ITF-L_18v_alimentation)
 
 ### Outputs
-* [`ITF-29_5v`](../../interfaces/ITF-29_5v)
+* [`ITF-B_5v`](../../interfaces/ITF-B_5v)
 * [`ITF-H_neg_12v`](../../interfaces/ITF-H_neg_12v)
-* [`ITF-10_gnd`](../../interfaces/ITF-F_12v)
+* [`ITF-F_12v`](../../interfaces/ITF-F_12v)
 
 ## Description
 ### Module requirements
-This module will provide the DC alimentation adapted to the electronic circuits different requirements in terms of voltage.
+This module will provide the DC alimentation adapted to the electronic circuits' different requirements in terms of voltage.
 
 ### Visuals
 ![circuit](/modules/MDL-alimentation_low_voltage_home_made/images/circuit1.jpg)  

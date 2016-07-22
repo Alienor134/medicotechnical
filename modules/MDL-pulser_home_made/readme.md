@@ -8,13 +8,10 @@
 Pulser producing a high voltage (-100v) pulse
 
 ## Version
-V1.0  
-
-## Date
-12/04/2016  
+V16.04.12  
 
 ## Technology
-hand made  
+Echopen Made 
  
 ## Author
 [`Gérard`](../../contributors/CTB-gerard)  
@@ -26,18 +23,18 @@ hand made
 ## IOs
 
 ###Inputs
-[`ITF-F_12v`](../../interfaces/ITF-B_5v)  
-[`ITF-T_100v`](../../interfaces/ITF-T_100v)  
+[`ITF-F_12v`](../../interfaces/ITF-F_12v)  
+[`IM_A_100v`](../../interfaces/IM-A_100v)  
 [`ITF-I_pulse_on`](../../interfaces/ITF-I_pulse_on)  
 [`ITF-J_pulse_off`](../../interfaces/ITF-J_pulse_off)  
 
 ### Outputs
-[`ITF-U_100v_pulse`](../../interfaces/ITF-U_100v_pulse)  
+[`IM_B_100v_pulse`](../../interfaces/IM_B_100v_pulse)  
 
 ## Description
 
 ### Module requirements
-This module will provide a high voltage pulse that will excite the transducer.
+This module will provide a high voltage analogic pulse that will excite the transducer.
 
 ### Visuals
 ![circuit](/modules/MDL-pulser_home_made/images/scheme.jpg)  

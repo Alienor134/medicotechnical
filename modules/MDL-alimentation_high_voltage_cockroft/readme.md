@@ -33,7 +33,7 @@ Echopen Made
 ## Information
 
 ### Module requirements 
-This module will provide a high voltage negative DC in order to increase the pulse voltage to exite efficiently the transducer.
+This module will provide a high negative DC voltage (-100V) in order to increase the pulse voltage to exite efficiently the transducer.
 
 ### Visuals
 ![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme2_cockroft.png)  

@@ -23,11 +23,11 @@ Echopen Made
 
 ## IOs
 ###Inputs
-[`alimentation +5V`](../../interfaces/ITF-B_5v)  
-[`alimentation +18V`](../../interfaces/ITF-L_18v_alimentation)  
+[`ITF-B_5v`](../../interfaces/ITF-B_5v)  
+[`ITF-L_18v_alimentation`](../../interfaces/ITF-L_18v_alimentation)  
 
 ### Outputs
-[`-100V DC`](../../interfaces/IM_A_100v)  
+[`IM_A_100v`](../../interfaces/IM_A_100v)  
 
 
 ## Information

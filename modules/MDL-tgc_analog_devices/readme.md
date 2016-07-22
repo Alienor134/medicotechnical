@@ -8,16 +8,14 @@
 Time Gain Amplification
 
 ## Version
-V1.0  
+V16.04.12
 
-## Date
-12/04/2016  
 
 ## Technology
-Integrated circuit [`AD8331 EVALZ`](AD8331 EVALZ)
+Integrated circuit [`AD8331 EVALZ`](http://www.analog.com/media/en/technical-documentation/evaluation-documentation/154207235AD8331EB_a.pdf)
 
 ## Contributor
-[`XXXX`](../../contributors/CTB-XXXX)  
+[`BM`](../../contributors/CTB-bm)  
 
 
 ## Functions  
@@ -27,8 +25,8 @@ Integrated circuit [`AD8331 EVALZ`](AD8331 EVALZ)
 ###Inputs
 [`ITF-B_5v`](../../interfaces/ITF-B_5v)  
 [`ITF-A_gnd`](../../interfaces/ITF-A_gnd)  
-[`echo received`](../../interfaces/IM-C_echo_received)  
-[`gain_control`](../../interfaces/ITF-G_gain_control) 
+[`IM-C_echo received`](../../interfaces/IM-C_echo_received)  
+[`ITF-G_gain_control`](../../interfaces/ITF-G_gain_control) 
 
 ### Outputs
 [`ITF-C_amplified_raw_signal`](../../interfaces/ITF-C_amplified_raw_signal)  

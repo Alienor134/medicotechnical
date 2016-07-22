@@ -37,7 +37,7 @@ Echopen Made and Arduino
 This module will realise the sweeping
 
 ## Visuals
-![scheme](/modules/MDL-alimentation_high_voltage_recom/images/scheme.jpg)  
+![scheme](/modules/MDL-motor_control/images/scheme.jpg)  
 
 
 ### Observations

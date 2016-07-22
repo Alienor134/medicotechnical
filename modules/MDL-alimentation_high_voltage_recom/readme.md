@@ -8,10 +8,7 @@
 High voltage (-100V) alimentation
 
 ## Version
-V1.1  
-
-## Date
-18/04/2016  
+V16.04.18
 
 ## Technology
 integrated circuit [`R05-100B`](http://www.digikey.fr/product-detail/fr/recom-power/R05-100B/945-2051-5-ND/3776798)  
@@ -30,10 +27,10 @@ integrated circuit [`R05-100B`](http://www.digikey.fr/product-detail/fr/recom-po
 ### Outputs
 [`ITF-T_100v`](../../interfaces/ITF-T_100v) variable output: +/-50 to 150V DC  
 
-## Description
+## Information
 
 ### Module requirements
-This module will provide a high voltage negative DC in order to increase the pulse voltage to exite efficiently the transducer.  
+This module will provide a high negative DC voltage (-100V) in order to increase the pulse voltage to exite efficiently the transducer.  
 
 ### Visuals
 

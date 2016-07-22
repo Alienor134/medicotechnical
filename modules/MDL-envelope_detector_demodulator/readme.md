@@ -8,13 +8,11 @@
 Envelope detector
 
 ## Version
-V1.0  
+V16.04.08  
 
-## Date
-08/04/2016 
 
 ## Technology
-Home made
+Echopen Made
 
 ## Contributor
 [`Farad`](../../contributors/CTB-Farad)  
@@ -24,16 +22,16 @@ Home made
 
 ## IOs
 ###Inputs
-[`D_amplified_filtered_signal`](../../interfaces/D_amplified_filtered_signal)  
+[`ITF-D_amplified_filtered_signal`](../../interfaces/ITF-D_amplified_filtered_signal)  
 
 ### Outputs
-[`ITF-E_signal_envelope`](../../interfaces/E_signal_envelope)  
+[`ITF-E_signal_envelope`](../../interfaces/ITF-E_signal_envelope)  
 
 
 ## Description
 
 ### Module requirements 
-The acoustic image is given by the value of acoustic intensity on each point. 
+The acoustic image is given by the value of the acoustic intensity on each point. 
 This amplitude is given by the envelope of the acoustic echoes.
 This module will extract the envelope from the filtered signal.
 

@@ -8,13 +8,10 @@
 High voltage (-100V) alimentation
 
 ## Version
-V1.0  
-
-## Date
-11/04/2016  
+V16.04.11 
 
 ## Technology
-Hand made
+Echopen Made
 
 ## Contributor
 [`Jérôme`](../../contributors/CTB-jerome)  
@@ -33,7 +30,7 @@ Hand made
 [`alimentation 100V DC`](../../interfaces/ITF-IM_A_100v)  
 
 
-## Description
+## Information
 
 ### Module requirements 
 This module will provide a high voltage negative DC in order to increase the pulse voltage to exite efficiently the transducer.

@@ -121,6 +121,9 @@ doc_build_dir = "../../build/"
 interfaces_index = doc_build_dir + "modules_index.md"
 
 # modules table 
+if __name__ == "__main__":
+  print("Documentation builder start :")
+md = """\
 
 | Name | Title |  
 |------|-------|

@@ -93,7 +93,6 @@ if __name__ == "__main__":
 
   md = """\
 # Interfaces table
-
 | Name | Title | Amplitude |
 |------|-------|-----------|
 """

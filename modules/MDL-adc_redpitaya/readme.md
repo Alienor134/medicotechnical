@@ -15,7 +15,7 @@ Commercial board [`RedPitaya`](http://redpitaya.com/)
 
 
 ## Functions  
-[`FCT-signal_processing_adc`](../../functions/FCT-signal_processing_adc)  
+[`FCT-signal_processing_calculating_pixels`](../../functions/FCT-signal_processing_calculating_pixels)  
 
 ## IOs
 ###Inputs

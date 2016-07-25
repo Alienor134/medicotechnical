@@ -1,5 +1,5 @@
 # Module
-![](viewme.png)
+![](viewme.JPG)
 
 ## Name
 [`MDL-mechanism_motor_DC`]()
@@ -34,11 +34,6 @@ Rotary movement
 ### Module requirements 
 In order to construct a 2D image, we have to move the transducer with a sweeping movement.
 This can be done with a motor (and a movement convertor).
-### Visuals
-![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme2_cockroft.png)  
-*circuit*    
-![circuit](/modules/MDL-alimentation_high_voltage_cockroft/images/scheme_cockroft.jpg)  
-*square alimentation 0-18V*
 
 ### Observations
 

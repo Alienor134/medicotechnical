@@ -15,7 +15,7 @@ Commercial board [`RedPitaya`](http://redpitaya.com/)
 
 
 ## Functions  
-[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)  
+[`FCT-signal_processing_adc`](../../functions/FCT-signal_processing_adc)  
 
 ## IOs
 ###Inputs
@@ -28,8 +28,8 @@ digital signal
 ## Information
 
 ### Module requirements 
-The response of the tranducer is analogical,
-in order to process it with a microcontroler we nedd to convert them on the digital form
+The response of the transducer is analog,
+in order to process it with a microcontroler we nedd to convert it into a digital form.
 
 ### Visuals
 [`The RedPitaya board as 125MHz ADC`](http://wiki.redpitaya.com/index.php?title=Hardware_Overview)

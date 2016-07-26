@@ -5,7 +5,7 @@
 [`MDL-controller_arduino`]()
 
 ## Title
-Arduino µC with E/S for driving CC motor
+Arduino microcontroller with E/S for driving CC motor
 
 ## Description
 

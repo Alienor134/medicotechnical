@@ -102,7 +102,7 @@ if __name__ == "__main__":
     print("<<< " + doc_name)
     dom = doc(doc_name)
     print(dom["###"])
-    root = get(dom, "modules")
+    root = get(dom, "module")
     r = search_ref(   get(get(root, "name"), ""))
     t = sanitize(  get(get(root, "title"), ""))
     a = sanitize(  get(get(root, "technology"), ""))

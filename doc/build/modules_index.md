@@ -1,10 +1,8 @@
 # Modules table
 | Name | Title | Version | Technology | Contributor | Functions | Module Requirements |
 |------|-------|---------|------------|-------------|-----------| -------------------- |
-|[`MDL-adc_redpitaya`](../../modules/MDL-adc_redpitaya "Analogic to digital conversion using RedPitaya")|_Analogic to digital conversion using RedPitaya_|V16.04.15|Commercial board [`RedPitaya`](http://redpitaya.com/)|###|[`FCT-signal_processing_calculating_pixels`](../../functions/FCT-signal_processing_calculating_pixels)|###|
-|[`MDL-alimentation_battery`](../../modules/MDL-alimentation_battery "Alimentation")|_Alimentation_|V16.04.18|Echopen Made using two 9V batteries serially connected|###|[`FCT-sensing`](../../functions/FCT-sensing) [`FCT-user_interfacing`](../../functions/FCT-user_interfacing)|###|
-|[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
-|[`MDL-alimentation_high_voltage`](../../modules/MDL-alimentation_high_voltage "High voltage (-100v) alimentation")|_High voltage (-100v) alimentation_|###|###|###||###|
+|[`MDL-adc_redpitaya`](../../modules/MDL-adc_redpitaya "Analog to digital conversion using RedPitaya")|_Analog to digital conversion using RedPitaya_|V16.04.15|Commercial board [`RedPitaya`](http://redpitaya.com/)|###|[`FCT-signal_processing_calculating_pixels`](../../functions/FCT-signal_processing_calculating_pixels)|###|
+|[`MDL-alimentation_battery`](../../modules/MDL-alimentation_battery "Alimentation of the whole system using batteries")|_Alimentation of the whole system using batteries_|V16.04.18|Echopen Made using two 9V batteries serially connected|###|[`FCT-sensing`](../../functions/FCT-sensing) [`FCT-user_interfacing`](../../functions/FCT-user_interfacing)|###|
 |[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-alimentation_high_voltage_cockroft`](../../modules/MDL-alimentation_high_voltage_cockroft "High voltage (-100V) alimentation")|_High voltage (-100V) alimentation_|V16.04.11|Echopen Made|[`Jerome`](../../contributors/CTB-jerome) [`Gerard`](../../contributors/CTB-gerard)|[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)|###|
 |[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
@@ -12,7 +10,6 @@
 |[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-alimentation_high_voltage_transformer`](../../modules/MDL-alimentation_high_voltage_transformer "High voltage (-100V) alimentation")|_High voltage (-100V) alimentation_|VX.X|hand made|###|[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)|###|
 |[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
-|[`MDL-alimentation_low_voltage`](../../modules/MDL-alimentation_low_voltage "Low voltage (+5v, +3.3v, ...) alimentation")|_Low voltage (+5v, +3.3v, ...) alimentation_|###|###|###|Function: [`FCT-alimentation`](../../functions/alimentation)|###|
 |[`MDL-alimentation_low_voltage_cui`](../../modules/MDL-alimentation_low_voltage_cui "Low voltage (+5v, 12V, ...) alimentation")|_Low voltage (+5v, 12V, ...) alimentation_|V16.04.18|integrated circuit [`PYB30-Q24`](http://www.cui.com/product/resource/pyb30-u.pdf)|###|###|###|
 |[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-alimentation_low_voltage`](../../modules/MDL-alimentation_low_voltage "Low voltage (+5v, +12v, ...) alimentation")|_Low voltage (+5v, +12v, ...) alimentation_|V16.04.11|Echopen Made|[`Jerome`](../../contributors/CTB-jerome) [`Gerard `](../../contributors/CTB-gerard)|###|###|
@@ -23,6 +20,9 @@
 |[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-band_pass_filter_rcl`](../../modules/MDL-band_pass_filter_rcl "RLC band-pass filter")|_RLC band-pass filter_|V16.04.14|Echopen Made|[`Jerome`](../../contributors/CTB-jerome) [`Michel`](../../contributors/CTB-michel)|[`FCT-signal_processing_filtering`](../../functions/FCT-signal_processing_filtering)|###|
 |[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
+|[`MDL-alimentation_high_voltage`](../../modules/MDL-alimentation_high_voltage "High voltage (-100v) alimentation")|_High voltage (-100v) alimentation_|###|###|###||###|
+|[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
+|[`MDL-alimentation_low_voltage`](../../modules/MDL-alimentation_low_voltage "Low voltage (+5v, +3.3v, ...) alimentation")|_Low voltage (+5v, +3.3v, ...) alimentation_|###|###|###|Function: [`FCT-alimentation`](../../functions/alimentation)|###|
 |[`MDL-controller_arduino`](../../modules/MDL-controller_arduino "Arduino microcontroller with E/S for driving CC motor")|_Arduino microcontroller with E/S for driving CC motor_|###|###|###||###|
 |[`MDL-controller_espruino_cc`](../../modules/MDL-controller_espruino_cc "Espruino microcontroller with E/S for driving CC motor")|_Espruino microcontroller with E/S for driving CC motor_|###|###|###||###|
 |[`MDL-controller_espruino_stepper`](../../modules/MDL-controller_espruino_stepper "Espruino microcontroller with driver for stepper motor")|_Espruino microcontroller with driver for stepper motor_|###|###|###||###|

@@ -15,7 +15,7 @@ motor [`RB-Pol-123`](http://www.robotshop.com/media/files/pdf/datasheet-1442.pdf
 integrated circuit [`encodor`](http://www.robotshop.com/ca/fr/moteur-12v-engrenage-191-avec-encodeur-64-cpr.html)
 
 ## Contributor
-[`Jérôme`](../../contributors/CTB-jerome)  
+[`Jerome`](../../contributors/CTB-jerome)  
 
 ## Functions  
 [`FCT-sensing_sweeping`](../../functions/FCT-sensing_sweeping)  

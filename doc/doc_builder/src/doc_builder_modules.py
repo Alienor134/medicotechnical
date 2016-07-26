@@ -29,7 +29,7 @@ def search_ref(txt):
   try:
     return re.search(r"([A-Z][A-Z][A-Z]-[\w_]+)", txt).group(1)
   except AttributeError:
-    break
+    print "NoneType"
   
 
 #-------------------------------------------------------------------------------

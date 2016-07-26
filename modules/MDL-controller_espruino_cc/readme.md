@@ -5,7 +5,7 @@
 [`MDL-controller_espruino_cc`]()
 
 ## Title
-Espruino µC with E/S for driving CC motor
+Espruino microcontroller with E/S for driving CC motor
 
 ## Description
 

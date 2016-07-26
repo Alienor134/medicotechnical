@@ -134,12 +134,12 @@ if __name__ == "__main__":
     dom = doc(doc_name)
     print(dom["###"])
     root = get(dom, "modules")
-    r = search_ref(get(get(root, "name"), ""))
-    t = sanitize(  get(get(root, "title"), ""))
-    a = sanitize(  get(get(root, "technology"), ""))
+    r = search_ref(get(get(root, "Name"), ""))
+    t = sanitize(  get(get(root, "Title"), ""))
+    a = sanitize(  get(get(root, "Technology"), ""))
     
-    md += '|[`{ref}`](../../modules/{ref} "{title}")|_{title}_|{technology}|\n'.format(
-          ref=r, title=t, technology=a)
+    md += '|[`{ref}`](../../modules/{ref} "{Title}")|_{Title}_|{Technology}|\n'.format(
+          ref=r, Title=t, Technology=a)
 
   store(modules_index, md)
   print(">>>\n" + md)

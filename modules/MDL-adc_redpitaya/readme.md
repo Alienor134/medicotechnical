@@ -5,7 +5,7 @@
 [`MDL-adc_redpitaya`]()
 
 ## Title
-Analogic to digital conversion using RedPitaya  
+Analog to digital conversion using RedPitaya  
 
 ## Version
 V16.04.15 

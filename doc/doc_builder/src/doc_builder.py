@@ -119,7 +119,7 @@ default_doc = "readme.md"
 
 doc_build_dir = "../../build/"
 
-modules_index = doc_build_dir + "modules_index.md"
+interfaces_index = doc_build_dir + "modules_index.md"
 
 if __name__ == "__main__":
   print("Documentation builder start :")

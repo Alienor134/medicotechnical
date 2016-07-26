@@ -139,7 +139,7 @@ if __name__ == "__main__":
     a = sanitize(  get(get(root, "Technology"), ""))
     
     md += '|[`{ref}`](../../modules/{ref} "{Title}")|_{Title}_|{Technology}|\n'.format(
-          ref=r, title=t, amplitude=a)
+          ref=r, Title=t, Technology=a)
 
-  store(interfaces_index, md)
+  store(modules_index, md)
   print(">>>\n" + md)

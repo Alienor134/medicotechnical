@@ -5,7 +5,7 @@
 [`MDL-alimentation_battery`]()
 
 ## Title
-Alimentation
+Alimentation of the whole system using batteries
 
 ## Version
 V16.04.18 

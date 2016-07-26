@@ -5,7 +5,7 @@
 [`MDL-band_pass_filter_rcl`]()
 
 ## Title
-Band-pass filter
+RLC band-pass filter
 
 ## Version
 V16.04.14 
@@ -14,7 +14,7 @@ V16.04.14
 Echopen Made
  
 ## Contributor
-[`Jérôme`](../../contributors/CTB-jerome)  
+[`Jerome`](../../contributors/CTB-jerome)  
 [`Michel`](../../contributors/CTB-michel) 
 
 ## Functions

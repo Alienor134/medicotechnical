@@ -5,7 +5,7 @@
 [`MDL-controller_espruino_stepper`]()
 
 ## Title
-Espruino µC with driver for stepper motor
+Espruino microcontroller with driver for stepper motor
 
 ## Description
 

@@ -26,9 +26,11 @@ def search_node_name(txt):
 
 #-------------------------------------------------------------------------------
 def search_ref(txt):
-  if re.search(r"([A-Z][A-Z][A-Z]-[\w_]+)", txt) is None:
-    return None
-  return re.search(r"([A-Z][A-Z][A-Z]-[\w_]+)", txt).group(1)
+  try:
+    return re.search(r"([A-Z][A-Z][A-Z]-[\w_]+)", txt).group(1)
+  except AttributeError:
+    break
+  
 
 #-------------------------------------------------------------------------------
 def collection(name):

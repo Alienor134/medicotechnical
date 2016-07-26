@@ -107,7 +107,7 @@ if __name__ == "__main__":
     t = sanitize(  get(get(root, "title"), ""))
     a = sanitize(  get(get(root, "technology"), ""))
     
-    md += '|[`{ref}`](../../interfaces/{ref} "{title}")|_{title}_|{technology}|\n'.format(
+    md += '|[`{ref}`](../../modules/{ref} "{title}")|_{title}_|{technology}|\n'.format(
           ref=r, title=t, technology=a)
 
   store(modules_index, md)

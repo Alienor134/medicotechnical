@@ -6,8 +6,6 @@ import os.path
 import codecs
 import re
 
-f.write(printinfo.encode('utf8') + '\n')
-
 repo_dir = "../../../"
 modules_col = "modules"
 default_doc = "readme.md"

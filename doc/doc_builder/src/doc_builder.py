@@ -114,7 +114,7 @@ if __name__ == "__main__":
   print(">>>\n" + md)
 
 repo_dir = "../../../"
-interfaces_col = "modules"
+modules_col = "modules"
 default_doc = "readme.md"
 
 doc_build_dir = "../../build/"
@@ -129,7 +129,7 @@ if __name__ == "__main__":
 | Name | Title | Amplitude |
 |------|-------|-----------|
 """
-  for doc_name in collection(interfaces_col):
+  for doc_name in collection(modules_col):
     print("<<< " + doc_name)
     dom = doc(doc_name)
     print(dom["###"])

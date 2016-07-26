@@ -95,8 +95,8 @@ if __name__ == "__main__":
 
   md = """\
 # Modules table
-| Name | Title | Amplitude |
-|------|-------|-----------|
+| Name | Title | Version | Technology | Contributor | Functions | Module Requirements |
+|------|-------|---------|------------|-------------|-----------| -------------------- |
 """
   for doc_name in collection(modules_col):
     print("<<< " + doc_name)
@@ -105,10 +105,14 @@ if __name__ == "__main__":
     root = get(dom, "module")
     r = search_ref(   get(get(root, "name"), ""))
     t = sanitize(  get(get(root, "title"), ""))
+    v = sanitize(  get(get(root, "version"), ""))
     a = sanitize(  get(get(root, "technology"), ""))
+    c = sanitize(  get(get(root, "contributor"), ""))
+    f = sanitize(  get(get(root, "functions"), ""))
+    m = sanitize(  get(get(root, "module requirements"), ""))
     
-    md += '|[`{ref}`](../../modules/{ref} "{title}")|_{title}_|{technology}|\n'.format(
-          ref=r, title=t, technology=a)
+    md += '|[`{ref}`](../../modules/{ref} "{title}")|_{title}_|{version}|{technology}|{contributor}|{functions}|{modulerq}|\n'.format(
+          ref = r, title = t, version = v, technology = a, contributor = c, functions = f, modulerq = m)
 
   store(modules_index, md)
   print(">>>\n" + md)

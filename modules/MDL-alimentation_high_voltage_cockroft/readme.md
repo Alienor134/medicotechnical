@@ -14,8 +14,8 @@ V16.04.11
 Echopen Made
 
 ## Contributor
-[`Jérôme`](../../contributors/CTB-jerome)  
-[`Gérard`](../../contributors/CTB-gerard)  
+[`Jerome`](../../contributors/CTB-jerome)  
+[`Gerard`](../../contributors/CTB-gerard)  
 
 
 ## Functions  

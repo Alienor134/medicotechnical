@@ -5,7 +5,7 @@
 [`MDL-alimentation_high_voltage_cockroft`]()
 
 ## Title
-High voltage (-100V) alimentation
+High voltage (-100V) alimentation using a Cockroft converter
 
 ## Version
 V16.04.11 

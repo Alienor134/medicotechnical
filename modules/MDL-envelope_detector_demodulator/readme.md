@@ -5,7 +5,7 @@
 [`MDL-envelope_detector_demodulator`]()
 
 ## Title
-Envelope detector
+Envelope detector using a diode, a capacitor and a resistance
 
 ## Version
 V16.04.08  

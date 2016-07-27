@@ -117,7 +117,7 @@ if __name__ == "__main__":
       md += '|[`{ref}`](../../modules/{ref} "{title}")|_{title}_|{version}|{technology}|{contributor}|{functions}|{modulerq}|\n'.format(
           ref = r, title = t, version = v, technology = a, contributor = c, functions = f, modulerq = m)
 
-md += """\
+  md += """\
 
 # Sensing table
 | Name | Title | Technology | Contributor | Functions |

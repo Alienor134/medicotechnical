@@ -96,10 +96,11 @@ if __name__ == "__main__":
   print("Documentation builder start :")
 
   md = """\
-# Sensing table
+# Alimentation table
 | Name | Title | Technology | Contributor | Functions |
 |------|-------|------------|-------------|-----------|
 """
+
   for doc_name in collection(modules_col):
     print("<<< " + doc_name)
     dom = doc(doc_name)
@@ -118,10 +119,11 @@ if __name__ == "__main__":
 
 md += """\
 
-# Alimentation
+# Sensing table
 | Name | Title | Technology | Contributor | Functions |
 |------|-------|------------|-------------|-----------|
 """
+
   for doc_name in collection(modules_col):
     print("<<< " + doc_name)
     dom = doc(doc_name)
@@ -140,11 +142,10 @@ md += """\
 
   md += """\
 # Signal processing table
-
-# Sensing table
 | Name | Title | Technology | Contributor | Functions |
 |------|-------|------------|-------------|-----------|
 """
+
   for doc_name in collection(modules_col):
     print("<<< " + doc_name)
     dom = doc(doc_name)

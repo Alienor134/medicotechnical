@@ -112,7 +112,7 @@ if __name__ == "__main__":
     c = sanitize(  get(get(root, "contributor"), ""))
     f = sanitize(  get(get(root, "functions"), ""))
     m = sanitize(  get(get(root, "module requirements"), ""))
-    f.find("alimentation") != -1:
+    if f.find("alimentation") != -1:
       md += '|[`{ref}`](../../modules/{ref} "{title}")|_{title}_|{version}|{technology}|{contributor}|{functions}|{modulerq}|\n'.format(
           ref = r, title = t, version = v, technology = a, contributor = c, functions = f, modulerq = m)
 

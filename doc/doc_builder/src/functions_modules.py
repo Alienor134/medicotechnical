@@ -112,7 +112,29 @@ if __name__ == "__main__":
     c = sanitize(  get(get(root, "contributor"), ""))
     f = sanitize(  get(get(root, "functions"), ""))
     m = sanitize(  get(get(root, "module requirements"), ""))
-    if f.find("sensing") != -1:
+    f.find("alimentation" != -1:
+      md += '|[`{ref}`](../../modules/{ref} "{title}")|_{title}_|{version}|{technology}|{contributor}|{functions}|{modulerq}|\n'.format(
+          ref = r, title = t, version = v, technology = a, contributor = c, functions = f, modulerq = m)
+
+md += """\
+
+# Alimentation
+| Name | Title | Technology | Contributor | Functions |
+|------|-------|------------|-------------|-----------|
+"""
+  for doc_name in collection(modules_col):
+    print("<<< " + doc_name)
+    dom = doc(doc_name)
+    print(dom["###"])
+    root = get(dom, "module")
+    r = search_ref(   get(get(root, "name"), ""))
+    t = sanitize(  get(get(root, "title"), ""))
+    v = sanitize(  get(get(root, "version"), ""))
+    a = sanitize(  get(get(root, "technology"), ""))
+    c = sanitize(  get(get(root, "contributor"), ""))
+    f = sanitize(  get(get(root, "functions"), ""))
+    m = sanitize(  get(get(root, "module requirements"), ""))
+    if f.find("sensing") != -1 and f.find("alimentation" == -1:
       md += '|[`{ref}`](../../modules/{ref} "{title}")|_{title}_|{version}|{technology}|{contributor}|{functions}|{modulerq}|\n'.format(
           ref = r, title = t, version = v, technology = a, contributor = c, functions = f, modulerq = m)
 
@@ -135,7 +157,7 @@ if __name__ == "__main__":
     c = sanitize(  get(get(root, "contributor"), ""))
     f = sanitize(  get(get(root, "functions"), ""))
     m = sanitize(  get(get(root, "module requirements"), ""))
-    if f.find("signal") != -1:
+    if f.find("signal") != -1 and f.find("alimentation" == -1:
       md += '|[`{ref}`](../../modules/{ref} "{title}")|_{title}_|{version}|{technology}|{contributor}|{functions}|{modulerq}|\n'.format(
           ref = r, title = t, version = v, technology = a, contributor = c, functions = f, modulerq = m)
   

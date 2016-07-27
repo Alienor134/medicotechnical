@@ -5,7 +5,7 @@
 [`MDL-alimentation_high_voltage_transformer`]()  
 
 ## Title
-High voltage (-100V) alimentation  
+High voltage (-100V) alimentation using a transformer 
 
 ## Version
 VX.X  

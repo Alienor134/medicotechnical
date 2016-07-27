@@ -5,7 +5,7 @@
 [`MDL-pulser_maxim`]()  
 
 ## Title
-Pulser producing a high voltage (-100v) pulse
+Maxim pulser producing a high voltage (-100v) pulse 
 
 ## Version
 V16.04.12  

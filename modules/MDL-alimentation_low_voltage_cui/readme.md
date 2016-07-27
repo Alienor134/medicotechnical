@@ -17,7 +17,7 @@ integrated circuit [`PYB30-Q24`](http://www.cui.com/product/resource/pyb30-u.pdf
 ## Author
 [`BM`](../../contributors/CTB-bm)  
 
-### Functions 
+## Functions 
 [`FCT-sensing`](../../functions/FCT-sensing)  
 [`FCT-signal_processing`](../../functions/FCT-signal_processing)  
 

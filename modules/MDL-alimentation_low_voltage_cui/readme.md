@@ -5,7 +5,7 @@
 [`MDL-alimentation_low_voltage_cui`]()
 
 ## Title
-Low voltage (+5v, 12V, ...) alimentation
+Low voltage (+5v, 12V, ...) alimentation using a Cui multiple DC converter
 
 ## Version  
 V16.04.18  
@@ -18,13 +18,8 @@ integrated circuit [`PYB30-Q24`](http://www.cui.com/product/resource/pyb30-u.pdf
 [`BM`](../../contributors/CTB-bm)  
 
 ### Functions 
-[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)  
-[`FCT-sensing_receiving`](../../functions/FCT-sensing_receiving)  
-[`FCT-sensing_sweeping`](../../functions/FCT-sensing_sweeping)  
-[`FCT-signal_processing_amplifying_time_gain_compensation`](../../functions/FCT-signal_processing_amplifying_time_gain_compensation)  
-[`FCT-signal_processing_calculating_pixels`](../../functions/FCT-signal_processing_calculating_pixels)  
-[`FCT-signal_processing_envelop_detecting`](../../functions/FCT-signal_processing_envelop_detecting)  
-[`FCT-signal_processing_filtering`](../../functions/FCT-signal_processing_filtering)  
+[`FCT-sensing`](../../functions/FCT-sensing)  
+[`FCT-signal_processing`](../../functions/FCT-signal_processing)  
 
 ## IOs
 

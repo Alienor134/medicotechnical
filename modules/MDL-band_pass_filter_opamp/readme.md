@@ -5,7 +5,7 @@
 [`MDL-band_pass_filter_opamp`]()
 
 ## Title
-Band-pass filter
+Band-pass filter using operational amplifiers
 
 ## Version
 V16.04.18
@@ -17,7 +17,7 @@ Home made using [`OPA625`](http://www.ti.com/product/OPA625)
 [`BM`](../../contributors/CTB-BM)  
 
 ## Functions
-[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)  
+[`FCT-signal_processing_filtering`](../../functions/FCT-signal_processing_filtering)  
 
 ## IOs
 

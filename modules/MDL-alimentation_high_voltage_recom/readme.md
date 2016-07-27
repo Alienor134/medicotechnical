@@ -5,7 +5,7 @@
 [`MDL-alimentation_high_voltage_recom`]()
 
 ## Title
-High voltage (-100V) alimentation
+High voltage (-100V) alimentation using a Recom DC converter
 
 ## Version
 V16.04.18

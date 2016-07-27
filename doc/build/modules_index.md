@@ -3,23 +3,16 @@
 |------|-------|---------|------------|-------------|-----------| -------------------- |
 |[`MDL-adc_redpitaya`](../../modules/MDL-adc_redpitaya "Analog to digital conversion using RedPitaya")|_Analog to digital conversion using RedPitaya_|V16.04.15|Commercial board [`RedPitaya`](http://redpitaya.com/)|###|[`FCT-signal_processing_calculating_pixels`](../../functions/FCT-signal_processing_calculating_pixels)|###|
 |[`MDL-alimentation_battery`](../../modules/MDL-alimentation_battery "Alimentation of the whole system using batteries")|_Alimentation of the whole system using batteries_|V16.04.18|Echopen Made using two 9V batteries serially connected|###|[`FCT-sensing`](../../functions/FCT-sensing) [`FCT-user_interfacing`](../../functions/FCT-user_interfacing)|###|
-|[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-alimentation_high_voltage_cockroft`](../../modules/MDL-alimentation_high_voltage_cockroft "High voltage (-100V) alimentation")|_High voltage (-100V) alimentation_|V16.04.11|Echopen Made|[`Jerome`](../../contributors/CTB-jerome) [`Gerard`](../../contributors/CTB-gerard)|[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)|###|
 |[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-alimentation_high_voltage_recom`](../../modules/MDL-alimentation_high_voltage_recom "High voltage (-100V) alimentation")|_High voltage (-100V) alimentation_|V16.04.18|integrated circuit [`R05-100B`](http://www.digikey.fr/product-detail/fr/recom-power/R05-100B/945-2051-5-ND/3776798)|###|[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)|###|
-|[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-alimentation_high_voltage_transformer`](../../modules/MDL-alimentation_high_voltage_transformer "High voltage (-100V) alimentation")|_High voltage (-100V) alimentation_|VX.X|hand made|###|[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)|###|
-|[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-alimentation_low_voltage_cui`](../../modules/MDL-alimentation_low_voltage_cui "Low voltage (+5v, 12V, ...) alimentation")|_Low voltage (+5v, 12V, ...) alimentation_|V16.04.18|integrated circuit [`PYB30-Q24`](http://www.cui.com/product/resource/pyb30-u.pdf)|###|###|###|
-|[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-alimentation_low_voltage`](../../modules/MDL-alimentation_low_voltage "Low voltage (+5v, +12v, ...) alimentation")|_Low voltage (+5v, +12v, ...) alimentation_|V16.04.11|Echopen Made|[`Jerome`](../../contributors/CTB-jerome) [`Gerard `](../../contributors/CTB-gerard)|###|###|
-|[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-battery_lab`](../../modules/MDL-battery_lab "Alimentation")|_Alimentation_|V16.04.18|Commercial System [`Velleman`](http://www.velleman.eu/products/view/?country=fr&lang=fr&id=417650)|###|[`FCT-sensing`](../../functions/FCT-sensing) [`FCT-user_interfacing`](../../functions/FCT-user_interfacing)|###|
 |[`MDL-backplane`](../../modules/MDL-backplane "Backplane card")|_Backplane card_|###|###|###||###|
 |[`MDL-band_pass_filter_opamp`](../../modules/MDL-band_pass_filter_opamp "Band-pass filter")|_Band-pass filter_|V16.04.18|Home made using [`OPA625`](http://www.ti.com/product/OPA625)|[`BM`](../../contributors/CTB-BM)|[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)|###|
-|[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-band_pass_filter_rcl`](../../modules/MDL-band_pass_filter_rcl "RLC band-pass filter")|_RLC band-pass filter_|V16.04.14|Echopen Made|[`Jerome`](../../contributors/CTB-jerome) [`Michel`](../../contributors/CTB-michel)|[`FCT-signal_processing_filtering`](../../functions/FCT-signal_processing_filtering)|###|
-|[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-alimentation_high_voltage`](../../modules/MDL-alimentation_high_voltage "High voltage (-100v) alimentation")|_High voltage (-100v) alimentation_|###|###|###||###|
 |[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-alimentation_low_voltage`](../../modules/MDL-alimentation_low_voltage "Low voltage (+5v, +3.3v, ...) alimentation")|_Low voltage (+5v, +3.3v, ...) alimentation_|###|###|###|Function: [`FCT-alimentation`](../../functions/alimentation)|###|
@@ -36,12 +29,9 @@
 |[`MDL-mechanism_stepper_tri_palm`](../../modules/MDL-mechanism_stepper_tri_palm "Tri frequencies stepper mechanism working in oil")|_Tri frequencies stepper mechanism working in oil_|###|###|###||###|
 |[`MDL-mechanism_stepper_tri_water`](../../modules/MDL-mechanism_stepper_tri_water "Tri frequencies stepper mechanism working in water")|_Tri frequencies stepper mechanism working in water_|###|###|###||###|
 |[`MDL-motor_control`](../../modules/MDL-motor_control "Motor Control")|_Motor Control_|V16.04.15|Echopen Made and Arduino|###|[`FCT-sensing_sweeping`](../../functions/FCT-sensing_sweeping)|###|
-|[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-murgen`](../../modules/MDL-murgen "Murgen")|_Murgen_|###|###|###||###|
 |[`MDL-pulser`](../../modules/MDL-pulser "Pluser")|_Pluser_|###|###|###||###|
 |[`MDL-pulser_home_made`](../../modules/MDL-pulser_home_made "Pulser producing a high voltage (-100v) pulse")|_Pulser producing a high voltage (-100v) pulse_|V16.04.12|Echopen Made|###|[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)|###|
-|[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-pulser_maxim`](../../modules/MDL-pulser_maxim "Pulser producing a high voltage (-100v) pulse")|_Pulser producing a high voltage (-100v) pulse_|V16.04.12|integrated circuit [`MAX4940`](http://www.mouser.com/ds/2/256/MAX4940EVKIT-MAX4940MB-477818.pdf)|###|[`FCT-sensing_emitting`](../../functions/FCT-sensing_emitting)|###|
-|[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
 |[`MDL-tgc_analog_devices`](../../modules/MDL-tgc_analog_devices "Time Gain Amplification")|_Time Gain Amplification_|V16.04.12|Integrated circuit [`AD8331 EVALZ`](http://www.analog.com/media/en/technical-documentation/evaluation-documentation/154207235AD8331EB_a.pdf)|[`BM`](../../contributors/CTB-bm)|[`FCT-signal_processing_amplifying_time_gain_compensation`](../../functions/FCT-signal_processing_amplifying_time_gain_compensation)|###|
 |[`None`](../../modules/None "###")|_###_|###|###|###|###|###|
